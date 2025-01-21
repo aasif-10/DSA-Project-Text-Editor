@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA PROJECT</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="stack.js"></script>
+    <script type="module" src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="heading">
+        <div class="navbar-container">
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Pad">Pad</a></li>
+                    <li><a href="#Team">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+
+            <p class="home-title" id="Home">Introducing TextPad</p>
+            <p class="home-para">A simple, fast, and reliable text editor where you can easily input
+                and edit text. Whether you're jotting down quick notes, writing code, or drafting your next big idea,
+                TextPad provides a clean and intuitive interface. It also allows you to reset your text or undo changes
+                easily, and you can view the stack operations side by side for a clear overview of your actions. With a
+                focus on minimalism and speed, TextPad helps you stay focused on what matters-your words-without
+                distractions.</p>
+        </div>
+
+        <div class="About" id="About">
+            <p class="about-title">About</p>
+            <p class="about-para">TextPad is built using stack data structures to ensure efficient text input and
+                editing. The stack-based architecture enables fast undo and reset operations, letting you go back or
+                clear your changes with ease. As you edit, TextPad displays the stack operations side by side, giving
+                you full visibility of each action you’ve taken. Developed with simplicity and speed in mind, TextPad is
+                the perfect tool for anyone who needs a straightforward text editor with powerful functionality for
+                managing text changes. Whether you're a student, developer, or writer, TextPad is designed to make text
+                editing effortless.</p>
+        </div>
+
+        <section class="text-box" id="Pad">
+            <p class="text-box-title">Pad</p>
+            <div class="text-box-container">
+                <div class="text-box">
+                    <textarea id="comment" rows="4" cols="50" placeholder="Input text" required></textarea>
+                </div>
+                <div class="output" id="output" style="overflow-y: auto;">
+                    <span id="temptext">Output</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="buttons">
+            <div class="reset"><button type="button" id="clear">Reset</button></div>
+            <div class="undo"><button type="button" id="undo">Undo</button></div>
+        </div>
+
+    </main>
+
+    <section class="team" id="Team">
+        <p class="team-title">Team</p>
+        <div class="team-div">
+            <ul class="team-list">
+                <div class="aasif">
+                    <li>Aasif Khan A</li>
+                    <p class="parateam"> Frontend development and project coordination</p>
+                </div>
+
+                <div class="harinaath">
+                    <li>Harinaath B</li>
+                    <p class="parateam"> Backend integration of JavaScript </p>
+                </div>
+
+                <div class="nirmal">
+                    <li>Nirmal P</li>
+                    <p class="parateam"> Resource management and project support</p>
+                </div>
+
+                <div class="nanditha">
+                    <li>Nanditha</li>
+                    <p class="parateam"> Implementation of JavaScript stack architecture</p>
+                </div>
+
+                <div class="serma">
+                    <li>Serma Durai</li>
+                    <p class="parateam"> Quality assurance and performance optimization</p>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+    <footer><a class="top" href="#top">Back to top</a>&copy;2025 TextPad. All rights reserved.</footer>
+</body>
+
+</html>

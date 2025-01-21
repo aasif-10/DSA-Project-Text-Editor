@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+header {
+  background-color: black;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  padding: 3rem;
+  padding-top: 4.5rem;
+  padding-inline: 6rem;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  margin-inline: 1.1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: grey;
+  text-shadow: none;
+  transition: textshadow 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  color: white;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 3rem;
+}
+
+.home-para {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  padding-inline: 16rem;
+  margin-inline: 2rem;
+  margin-top: 7rem;
+  line-height: 2.6rem;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin-top: 10rem;
+}
+.about-para {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  padding-inline: 16rem;
+  margin-inline: 2rem;
+  margin-top: 5rem;
+  line-height: 2.6rem;
+}
+
+.text-box-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin-top: 10rem;
+}
+
+.text-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-inline: 8rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.output {
+  margin-right: 3rem;
+  background-color: rgba(3, 31, 46, 0.6);
+  color: white;
+  width: 35rem;
+  height: 20rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  border-radius: 1.2rem;
+  border: 1px solid white;
+  padding: 1.7rem;
+}
+
+#output::-webkit-scrollbar {
+  width: 10px;
+}
+
+textarea {
+  background-color: rgba(3, 31, 46, 0.6);
+  color: white;
+  width: 35rem;
+  height: 20rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  border-radius: 1.2rem;
+  border: 1px solid white;
+  padding: 1.5rem;
+}
+textarea::placeholder {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 1.9rem;
+  margin-right: 3rem;
+}
+button {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  background-color: rgba(3, 31, 46, 0.6);
+  color: rgb(187, 173, 173);
+  border-radius: 8px;
+  padding: 0.7rem;
+  width: 7rem;
+  border: 1px solid white;
+}
+button:hover {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 10rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.team-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin-top: 10rem;
+}
+
+.team-div {
+  color: rgb(146, 136, 136);
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  line-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.team-list {
+  list-style: none;
+}
+.team-list ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.aasif {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  transition: 0.3s ease;
+}
+.harinaath {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  padding-right: 5rem;
+  transition: 0.3s ease;
+}
+.nirmal {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  padding-right: 1.8rem;
+  transition: 0.3s ease;
+}
+.nanditha {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  padding-right: 0.3rem;
+  transition: 0.3s ease;
+}
+.serma {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  transition: 0.3s ease;
+}
+
+.aasif:hover {
+  color: white;
+}
+.harinaath:hover {
+  color: white;
+}
+.nirmal :hover {
+  color: white;
+}
+.nanditha:hover {
+  color: white;
+}
+.serma:hover {
+  color: white;
+}
+
+.top {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(132, 121, 121);
+  transition: 0.3s ease;
+}
